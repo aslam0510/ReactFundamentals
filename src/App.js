@@ -6,9 +6,6 @@ import ColorParent from './components/ColorParent';
 
 function App() {
  
-  
-
-  
   return (
     <div className="App">
       <BrowserRouter>

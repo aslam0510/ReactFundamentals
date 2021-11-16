@@ -4,7 +4,6 @@ import Input from './Input';
 
 
 function ColorParent() {
-  console.log('hiiii');
   const [color, setColor] = useState('');
   return (
     <div>

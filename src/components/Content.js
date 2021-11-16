@@ -3,7 +3,7 @@ import ItemList from './ItemList';
 
 function Content({ items, onHandleCheck, onHandleDelete }) {
   return (
-    <main>
+    <>
       {items.length ? (
         items.map((item) => (
           <ItemList
@@ -16,7 +16,7 @@ function Content({ items, onHandleCheck, onHandleDelete }) {
       ) : (
         <p>Your list is empty</p>
       )}
-    </main>
+    </>
   );
 }
 
